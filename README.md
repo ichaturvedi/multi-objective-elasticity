@@ -17,5 +17,5 @@ Skin Elasticity
 Preprocessing
 ---
 - The training samples are a vector of landmarks and emotion label (see data folder for sample happy vs neutral).
-- Spatio-temporal ICA with barrier function is used to extract significant components (see folder spatial ICA)
+- Spatio-temporal ICA with barrier function is used to extract significant components (see folder spatialica)
 
