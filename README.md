@@ -14,4 +14,8 @@ Skin Elasticity
 - We consider landmarks on the face extracted using a pre-trained model
 - The rate of movement in three directions depends on skin elasticity
 
+Preprocessing
+---
+- The training samples are a vector of landmarks and emotion label (see data folder for sample happy vs neutral).
+- Spatio-temporal ICA with barrier function is used to extract significant components (see folder spatial ICA)
 
