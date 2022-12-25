@@ -25,6 +25,3 @@ ica_fem(inputfile, outputfile)
 - Input training landmarks are in folder data (see example child_h_n.txt)
 - Output processed file is written to outputfile ( see example happyica.csv)
 
-![image](https://user-images.githubusercontent.com/65399216/209457941-5500e268-83af-42de-97ee-9653f939ae07.png)
-
-
