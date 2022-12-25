@@ -42,15 +42,17 @@ fuzzy_nn(inputfile, outputfile)
 
 Training
 ---
-- We define constraints for each facial actions for an emotion (see 
-- 
+- We define constraints for each facial actions for an emotion (see fem_multiobjective.m)
+- We define the Fuzzy model as fitness function for evolution
+- We use a multi-objective genetic algorithm to determine the Pareto front
 
+We run the scripts in mo folder as follows :
 
 gamultiobjfitnessfem(inputfile, outputfile)
+
 inputfile = ../spatialica/happyica.csv
 outputfile = happyicamo.csv
 
 predict_fem(inputfile, outputfile)
 inputfile = ../mo/happyicamo.csv
 outputfile = facemoh.mat
-![image](https://user-images.githubusercontent.com/65399216/209458080-12ae8689-98de-4c89-8ea7-6d25b7302922.png)
