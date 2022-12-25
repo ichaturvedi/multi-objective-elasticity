@@ -19,3 +19,12 @@ Preprocessing
 - The training samples are a vector of landmarks and emotion label (see data folder for sample happy vs neutral).
 - Spatio-temporal ICA with barrier function is used to extract significant components (see folder spatialica)
 
+We first extract independent spatial components using scripts in folder spatialica
+
+ica_fem(inputfile, outputfile)
+- Input training landmarks are in folder data (see example child_h_n.txt)
+- Output processed file is written to outputfile ( see example happyica.csv)
+
+![image](https://user-images.githubusercontent.com/65399216/209457941-5500e268-83af-42de-97ee-9653f939ae07.png)
+
+
