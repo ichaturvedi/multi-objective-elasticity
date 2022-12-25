@@ -45,14 +45,17 @@ Training
 - We define constraints for each facial actions for an emotion (see fem_multiobjective.m)
 - We define the Fuzzy model as fitness function for evolution
 - We use a multi-objective genetic algorithm to determine the Pareto front
+- We train a neural network with the solution from Pareto front
 
 We run the scripts in mo folder as follows :
 
 gamultiobjfitnessfem(inputfile, outputfile)
+- The input file for genetic algorithm is the processed file from ICA (see example happyica.csv)
+- The fitness function for multiobjective is trained fuzzy model (see happy.mat)
+- The outputfile contains the Pareto solutions (see happyicamo.csv)
 
-inputfile = ../spatialica/happyica.csv
-outputfile = happyicamo.csv
+rmse = predict_fem(inputfile, outputfile)
+- The input file for neural network is the output Pareto front (see happyicamo.csv)
+- The outputfile is the trained neural network to predict emotions (see facemoh.mat)
+- Root mean square error is returned for 80/20 training and testing split
 
-predict_fem(inputfile, outputfile)
-inputfile = ../mo/happyicamo.csv
-outputfile = facemoh.mat
