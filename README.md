@@ -39,3 +39,18 @@ decision_fem(inputfile)
 fuzzy_nn(inputfile, outputfile)
 - The input to Fuzzy neural network is the processed file from ICA ( see example happyica.csv)
 - The output is a trained model in outputfile (see example happy.mat)
+
+Training
+---
+- We define constraints for each facial actions for an emotion (see 
+- 
+
+
+gamultiobjfitnessfem(inputfile, outputfile)
+inputfile = ../spatialica/happyica.csv
+outputfile = happyicamo.csv
+
+predict_fem(inputfile, outputfile)
+inputfile = ../mo/happyicamo.csv
+outputfile = facemoh.mat
+![image](https://user-images.githubusercontent.com/65399216/209458080-12ae8689-98de-4c89-8ea7-6d25b7302922.png)
