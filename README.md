@@ -25,3 +25,17 @@ ica_fem(inputfile, outputfile)
 - Input training landmarks are in folder data (see example child_h_n.txt)
 - Output processed file is written to outputfile ( see example happyica.csv)
 
+Fuzzy Logic
+---
+- We first extract prior rules for landmarks using a decision trees
+- These rules are used to formulate Fuzzy membership functions
+
+We run the scripts in fuzzy folder as follows:
+
+decision_fem(inputfile)
+- The input to decision tree is the processed file from ICA (see example happyica.csv)
+- The output tree is converted into rules (see fuzzy_nn.m)
+
+fuzzy_nn(inputfile, outputfile)
+- The input to Fuzzy neural network is the processed file from ICA ( see example happyica.csv)
+- The output is a trained model in outputfile (see example happy.mat)
