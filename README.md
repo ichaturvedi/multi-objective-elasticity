@@ -4,8 +4,8 @@ This code implements the model discussed in the paper on modeling Skin Elasticit
 
 Requirements
 ---
-This code is based on the Speech emotion recognition code found at:
-https://in.mathworks.com/help/gads/gamultiobj-plot-vectorize.html
+This code is based on the Fuzzy Logic classification code found at:
+https://au.mathworks.com/help/fuzzy/fuzzy-logic-image-processing.html
 
 Skin Elasticity
 ---
