@@ -59,3 +59,9 @@ rmse = predict_fem(inputfile, outputfile)
 - The outputfile is the trained neural network to predict emotions (see facemoh.mat)
 - Root mean square error is returned for 80/20 training and testing split
 
+https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/e8a92fb1-7fc4-43fe-8718-4f0fb9f621d4
+
+
+https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/cca9d862-8900-487d-88c5-79153b2b9e08
+
+
