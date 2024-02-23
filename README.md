@@ -64,8 +64,9 @@ Speech to lips landmarks
 
 Angry emotion
 
-https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/86561024-c008-48f9-b2a4-971eaecb603a
+https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/38e37ff6-216e-4476-a98c-a2ce4cadce71
 
 Happy emotion
 
-https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/6af28754-7f44-4638-99ea-4afb9e74a663
+https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/1bbae9b3-001a-4735-9a07-ddc95198419e
+
