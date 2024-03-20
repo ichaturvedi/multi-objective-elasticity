@@ -10,7 +10,9 @@ https://au.mathworks.com/help/fuzzy/fuzzy-logic-image-processing.html
 
 Skin Elasticity
 ---
-<img height="300" alt="fem" src="https://user-images.githubusercontent.com/65399216/209433053-98e48b9b-d4f5-41ac-b4bf-41f60a27a4e2.png"><img height="300" alt="fem" src="https://user-images.githubusercontent.com/65399216/209433059-05860675-97c4-421d-9d55-6ed953397674.png">
+
+![cafe_hap](https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/54bf3808-52c6-47e1-8627-e24b2900dc41)
+![ieom_hap](https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/8f61e54d-96bb-4a7d-859d-4c60d58d187b)
 
 - We consider landmarks on the face extracted using a pre-trained model
 - The rate of movement in three directions depends on skin elasticity
