@@ -59,3 +59,10 @@ rmse = predict_fem(inputfile, outputfile)
 - The input file for neural network is the output Pareto front (see happyicamo.csv)
 - The outputfile is the trained neural network to predict emotions (see facemoh.mat)
 - Root mean square error is returned for 80/20 training and testing split
+
+Speech to Landmark 
+
+
+https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/ee6eb7f7-b6c9-4d37-85a4-ff8e6fff47f6
+
+
