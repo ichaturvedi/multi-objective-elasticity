@@ -55,17 +55,16 @@ fuzzy_nn(inputfile, outputfile)
 
 Multi-Objective
 ---
-- We define constraints for each facial actions for an emotion (see fem_multiobjective.m)
+- We define constraints for salt water management example (see fem_multiobjective.m)
 - We define the Fuzzy model as fitness function for evolution
 - We use a multi-objective genetic algorithm to determine the Pareto front
-- We train a neural network with the solution from Pareto front
 
 We run the scripts in mo folder as follows :
 
 gamultiobjfitnessfem(inputfile, outputfile)
-- The input file for genetic algorithm is the processed file from ICA (see example happyica.csv)
-- The fitness function for multiobjective is trained fuzzy model (see happy.mat)
-- The outputfile contains the Pareto solutions (see happyicamo.csv)
+- The input file for genetic algorithm is the transformed data from spatial ICA
+- The fitness function for multiobjective is trained fuzzy model (see fisouts.mat)
+- The outputfile contains the Pareto solutions 
 
 Speech to Landmark 
 
