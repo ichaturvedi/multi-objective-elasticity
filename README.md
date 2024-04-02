@@ -31,6 +31,17 @@ ica_fem(inputfile, labelfile, outputfile, outputlabel)
 - Input training 3D landmarks are in folder data (see example face3d_hap_ang.txt and label_hap_ang.txt)
 - Output processed file is written to outputfile 
 
+Feature Extraction
+---
+- We extract features from landmarks using a feedforward neural network
+- The extracted features are used to train Fuzzy logic
+
+We run the scripts in features folder as follows:
+
+ext_features(inputs,targets)
+- Input is the transformed output from spatial ica
+- Output is the trained network and activation features
+
 Fuzzy Logic
 ---
 - We first extract prior rules for landmarks using a decision trees
