@@ -27,9 +27,9 @@ Preprocessing
 
 We run the script in spatialica folder as follows:
 
-ica_fem(inputfile, outputfile)
-- Input training landmarks are in folder data (see example child_h_n.txt)
-- Output processed file is written to outputfile ( see example happyica.csv)
+ica_fem(inputfile, labelfile, outputfile, outputlabel)
+- Input training 3D landmarks are in folder data (see example face3d_hap_ang.txt and label_hap_ang.txt)
+- Output processed file is written to outputfile 
 
 Fuzzy Logic
 ---
