@@ -71,11 +71,6 @@ gamultiobjfitnessfem(inputfile, outputfile)
 - The fitness function for multiobjective is trained fuzzy model (see happy.mat)
 - The outputfile contains the Pareto solutions (see happyicamo.csv)
 
-rmse = predict_fem(inputfile, outputfile)
-- The input file for neural network is the output Pareto front (see happyicamo.csv)
-- The outputfile is the trained neural network to predict emotions (see facemoh.mat)
-- Root mean square error is returned for 80/20 training and testing split
-
 Speech to Landmark 
 
 
