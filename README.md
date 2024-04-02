@@ -49,10 +49,6 @@ Fuzzy Logic
 
 We run the scripts in fuzzy folder as follows:
 
-decision_fem(inputfile)
-- The input to decision tree is the processed file from ICA (see example happyica.csv)
-- The output tree is converted into rules (see fuzzy_nn.m)
-
 fuzzy_nn(inputfile, outputfile)
 - The input to Fuzzy neural network is the processed file from ICA ( see example happyica.csv)
 - The output is a trained model in outputfile (see example happy.mat)
