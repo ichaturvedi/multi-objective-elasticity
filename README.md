@@ -50,10 +50,10 @@ Fuzzy Logic
 We run the scripts in fuzzy folder as follows:
 
 fuzzy_nn(inputfile, outputfile)
-- The input to Fuzzy neural network is the processed file from ICA ( see example happyica.csv)
-- The output is a trained model in outputfile (see example happy.mat)
+- The input to Fuzzy neural network are the features extracted using NN 
+- The output is a trained model in outputfile (see example fisouts.mat)
 
-Training
+Multi-Objective
 ---
 - We define constraints for each facial actions for an emotion (see fem_multiobjective.m)
 - We define the Fuzzy model as fitness function for evolution
