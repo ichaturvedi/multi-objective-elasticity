@@ -22,7 +22,7 @@ Happy expression in a toddler and an adult
 
 Preprocessing
 ---
-- The training samples are a vector of landmarks and emotion label (see data folder for sample happy vs neutral).
+- The training samples are a vector of landmarks and emotion label.
 - Spatio-temporal ICA with barrier function is used to extract significant components (see folder spatialica)
 
 We run the script in spatialica folder as follows:
