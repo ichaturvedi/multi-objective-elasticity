@@ -66,8 +66,8 @@ gamultiobjfitnessfem(inputfile, outputfile)
 - The fitness function for multiobjective is trained fuzzy model (see fisouts.mat)
 - The outputfile contains the Pareto solutions 
 
-# Speech to Landmark 
+! Speech to Landmark 
 
-# https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/ee6eb7f7-b6c9-4d37-85a4-ff8e6fff47f6
+! https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/ee6eb7f7-b6c9-4d37-85a4-ff8e6fff47f6
 
 
