@@ -73,3 +73,5 @@ gamultiobjfitnessfem(inputfile, outputfile)
 Speech to Landmark
 
 https://github.com/ichaturvedi/multi-objective-elasticity/assets/65399216/ee6eb7f7-b6c9-4d37-85a4-ff8e6fff47f6
+
+Paper link : https://link.springer.com/article/10.1007/s12559-024-10344-7
